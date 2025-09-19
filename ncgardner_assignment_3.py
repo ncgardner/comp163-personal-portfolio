@@ -13,11 +13,11 @@ instagram_info = ("Instagram", "@nathan_gardner31", 900)
 twitter_info = ("Twitter", "N/A", 0)
 birthday = ("Birthday", "7", "06", "2004")
 
-current_skills = {"Python basics", "HTML", "Problem solving", "Time management", "Photography"}
+current_skills = {"Python basics", "Problem solving", "Time management", "Guitar", "Piano"}
 skills_to_learn = {"JavaScript", "Data structures", "Git", "Public speaking", "Web design"}
-career_interests = {"Software development", "Web development", "Data science", "Game development"}
-hobbies = {"Gaming", "Photography", "Reading", "Soccer", "Music"}
-entertainment_backlog = {"One Piece", "Barry", "Life", "Incantation", "Memento"}
+career_interests = {"Software development", "Web development", "Game development"}
+hobbies = {"Dancing", "Hunting", "Reading", "Fishing", "Music", "Golf"}
+entertainment_backlog = {"Supernatural", "Breaking Bad", "The Walking Dead", "HIMYM", "New Girl"}
 
 course_credits = {"COMP 163": 3, "MATH 150": 3, "ENG 101": 3, "HIS 105": 3}
 course_prof = {"COMP 163": "Prof. Rhodes", "MATH 150": "Dr. Lee", 
@@ -74,5 +74,6 @@ print(f"Current Academic Load: {sum(credit_hours) + sum(study_hours_per_subject.
 print(f"Entertainment Backlog: {len(entertainment_backlog)} items")
 print(f"Current Hobbies: {len(hobbies)} activities")
 print("================================================================")
+
 
 
