@@ -1,5 +1,5 @@
-personal_info = {"Full name": "Jordan Smith", "Student email": "jsmith@ncat.edu","Hometown": "Charlotte, NC",
-"Graduation semester": "Spring 2028", "Major": "Computer Science"}
+personal_info = {"Full name": "Nathan Gardner", "Student email": "ncgardner@aggies.ncat.edu","Hometown": "Reidsville, NC",
+"Graduation semester": "Spring 2027", "Major": "Computer Science"}
 
 current_courses = ["COMP 163", "MATH 150", "ENG 101","HIS 105"]
 completed_courses = ["Biology", "Chemistry", "Calculus", "Spanish II", "World History"]
@@ -7,11 +7,11 @@ credit_hours = [3, 3, 3, 3]
 GPA_history = [3.2, 3.6, 3.4, 3.7]
 cumulative_GPA = (sum(GPA_history) / 4)
 
-emergency_contacts = ("Mom", "Hannah Smith", "704-555-0199")
-home_address = ("456 Oak Street", "Charlotte", "NC", "28202")
-instagram_info = ("Instagram", "@jordan_codes", 312)
-twitter_info = ("Twitter", "jordandev", 127)
-birthday = ("Birthday", "5", "22", "2006")
+emergency_contacts = ("Mom", "Cameron Gardner", "336-999-9999")
+home_address = ("274 Riverwood Drive", "Reidsville", "NC", "27214")
+instagram_info = ("Instagram", "@nathan_gardner31", 900)
+twitter_info = ("Twitter", "N/A", 0)
+birthday = ("Birthday", "7", "06", "2004")
 
 current_skills = {"Python basics", "HTML", "Problem solving", "Time management", "Photography"}
 skills_to_learn = {"JavaScript", "Data structures", "Git", "Public speaking", "Web design"}
@@ -74,3 +74,4 @@ print(f"Current Academic Load: {sum(credit_hours) + sum(study_hours_per_subject.
 print(f"Entertainment Backlog: {len(entertainment_backlog)} items")
 print(f"Current Hobbies: {len(hobbies)} activities")
 print("================================================================")
+
