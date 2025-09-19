@@ -1,10 +1,10 @@
 personal_info = {"Full name": "Nathan Gardner", "Student email": "ncgardner@aggies.ncat.edu","Hometown": "Reidsville, NC",
 "Graduation semester": "Spring 2027", "Major": "Computer Science"}
 
-current_courses = ["COMP 163", "MATH 150", "ENG 101","HIS 105"]
-completed_courses = ["Biology", "Chemistry", "Calculus", "Spanish II", "World History"]
-credit_hours = [3, 3, 3, 3]
-GPA_history = [3.2, 3.6, 3.4, 3.7]
+current_courses = ["COMP 163", "MATH 104", "BIO 100","HIS 106"]
+completed_courses = ["Public Speaking", "Chemistry", "Calculus", "Intro to Python"]
+credit_hours = [3, 3, 4, 3]
+GPA_history = [3.8, 3.9, 3.6, 3.7]
 cumulative_GPA = (sum(GPA_history) / 4)
 
 emergency_contacts = ("Mom", "Cameron Gardner", "336-999-9999")
@@ -74,4 +74,5 @@ print(f"Current Academic Load: {sum(credit_hours) + sum(study_hours_per_subject.
 print(f"Entertainment Backlog: {len(entertainment_backlog)} items")
 print(f"Current Hobbies: {len(hobbies)} activities")
 print("================================================================")
+
 
