@@ -19,14 +19,14 @@ career_interests = {"Software development", "Web development", "Game development
 hobbies = {"Dancing", "Hunting", "Reading", "Fishing", "Music", "Golf"}
 entertainment_backlog = {"Supernatural", "Breaking Bad", "The Walking Dead", "HIMYM", "New Girl"}
 
-course_credits = {"COMP 163": 3, "MATH 150": 3, "ENG 101": 3, "HIS 105": 3}
-course_prof = {"COMP 163": "Prof. Rhodes", "MATH 150": "Dr. Lee", 
-"ENG 101": "Dr. Martinez", "HIS 105": "Dr. Brown"}
-course_rooms = {"COMP 163": "M-Eric 300", "MATH 150": "Marteena 201", "ENG 101": "Crosby 121", 
-"HIS 105": "Crosby 210"}
-monthly_budget = {"Food": 450, "Entertainment": 200, "Books": 125, "Transportation": 100}
-study_hours_per_subject = {"Programming": 10, "Math": 8, "English": 4, "History": 3}
-contact_directory = {"Mom": "704-555-0199", "Roommate": "336-555-7821", "Academic Advisor": "336-334-5000"}
+course_credits = {"COMP 163": 3, "MATH 104": 3, "BIO 100": 4, "HIS 106": 3}
+course_prof = {"COMP 163": "Prof. Rhodes", "MATH 104": "Mrs. Nelson", 
+"BIO 100": "Dr. Scott", "HIS 106": "Dr. Devoe"}
+course_rooms = {"COMP 163": "Gibbs 337", "MATH 104": "Marteena 214", "BIO 100": "Barnes 110", 
+"HIS 106": "Online"}
+monthly_budget = {"Food": 300, "Entertainment": 100, "Books": 25, "Transportation": 400}
+study_hours_per_subject = {"Programming": 3, "Math": 1, "Biology": 1, "History": 1}
+contact_directory = {"Mom": "336-999-9999", "Roommate": "336-999-9998", "Academic Advisor": "336-999-9997"}
 
 print("================================================================")
 print("              PERSONAL ACADEMIC & LIFE PORTFOLIO")
@@ -74,6 +74,7 @@ print(f"Current Academic Load: {sum(credit_hours) + sum(study_hours_per_subject.
 print(f"Entertainment Backlog: {len(entertainment_backlog)} items")
 print(f"Current Hobbies: {len(hobbies)} activities")
 print("================================================================")
+
 
 
 
